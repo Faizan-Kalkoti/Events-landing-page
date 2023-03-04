@@ -1,0 +1,281 @@
+body{
+    margin:0px;
+}
+
+.mainnv{
+    padding-left: 20px;
+    font-size: 1.3rem;   
+}
+
+.mainnv:hover{
+    font-weight: 500;
+}
+
+.nv{
+    font-family: Arial, Avenir, sans-serif;
+    font-size: 1.1em;
+    padding: 0.5em;
+}
+
+.nv:hover{
+ font-weight:600;
+}
+
+.topcontent{
+    padding: 4em 8em;
+    /* padding: 10em; */
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    justify-content: left;
+    /* background-color: aliceblue; */
+    align-items: center;
+}
+
+.tc1{
+    padding: 1em;
+    font-size: 1.2em;
+}
+
+.tc2{
+    padding: 0.5em;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dwnbtn{
+    padding: 0.35em 1em;
+    display: flex; 
+    text-align: center; 
+    align-items: center;
+    border-radius: 10px;
+}
+
+.dwnbtn:hover{
+    background-color: rgb(227, 227, 227);
+    font-weight: 550;
+}
+
+.bg2{
+    /* background-color: rgb(245, 246, 246); */
+    background-color: rgb(244, 244, 244);
+    width: 100%;
+    padding: 3em;
+    height:fit-content;
+    z-index: -3;
+    right: 0px;
+    bottom: 0px;    
+    /* clip-path: polygon(100% 20%, 40% 100%,
+     100% 100%); */
+}
+
+.bg1{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    background-color: rgb(242, 232, 223);
+    z-index: 100;
+    border-radius: 100%;
+    /* border-radius: 5px ; */
+    transform: translate(-15em, -12em);
+    opacity: 1;
+    z-index: -20;
+}
+
+.bg01{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    background-color: rgb(242, 232, 223);
+    z-index: 100;
+    border-radius: 100%;
+    /* border-radius: 5px ; */
+    transform: translate(-9em, -9em);
+    opacity: 0.5;
+    z-index: -20;
+}
+
+
+/* .bg01{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    background: linear-gradient(to top left, rgba(200,200,200,0.08), rgba(100,100,100,0.2));
+    z-index: 90;
+    clip-path: circle();
+    border-radius: 5px ;
+    transform: scale(1.2);
+    transform: translate(-9em, -8em);
+} */
+
+.sc2{
+    margin-top: 0em;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+justify-content: center;
+flex-direction: row;
+align-items: center;
+text-align: center;
+font-size: 1.15em;
+}
+
+.auth{
+    padding: 7em;
+    text-align: left;
+    font-size: 1.3em;
+}
+
+.ath{
+    width: 21em;
+    padding: 2em;
+    background-color:  rgb(245, 245, 245);
+    border-radius: 1em;
+    box-shadow: -20px 20px 40px rgb(237, 231, 227);
+}
+
+.sc4{
+    padding: 7em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+
+
+.sc5{
+ background-color: antiquewhite;
+ padding: 3em 15%;
+ margin-bottom: 0em;
+ display:flexbox;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ height: fit-content;
+}
+
+.crow{
+    background-color: rgba(245, 245, 245, 0.495);
+    padding: 1em;
+    border-radius: 5em;
+    margin: 0% 10%;
+    box-shadow: 1px 1px 2em 0.1em black;
+}
+
+.tcc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.qq{
+    padding-top: 4em;
+}
+
+.cc{
+    width: 80%;
+    height: fit-content;
+    /* background-color: aqua; */
+    text-align: left;
+    padding: 1em;
+    font-size: 1.3em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ttdes{
+    padding: 0.5em;
+    opacity: 0.7;
+    font-size: 1.1;
+}
+
+.imgtest{
+    
+    transform: scale(0.5);
+}
+
+
+
+
+
+/* Footer contents  */
+
+.scft{
+    background-color: rgb(38, 38, 38);
+    padding: 2em; 
+    text-align: center;
+}
+
+.ftrows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3em;
+}
+
+.ftimg{
+    width: 2em; 
+    margin: 0.5em;
+}
+
+.ftimg:hover{
+    transform: scale(1.1);
+}
+
+.ftext{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 0.7em;
+    font-size: 1.1em;
+}
+
+.ftext:hover{
+    font-weight: 600;
+}
+
+.btext{
+    color: rgba(245, 245, 245, 0.616);
+    padding-top: 0.4em;
+}
+
+
+
+
+/* contact page styles */
+
+.contact{
+    background-color: antiquewhite;
+    border-radius: 3em;
+    padding: 0.5em;
+}
+
+.con{
+    padding: 2em;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: row;
+    flex-shrink: initial;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_btn{
+    padding: 0.5em;
+    border-radius: 10px ;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.contact_btn:hover{
+    background-color: aliceblue;
+    font-weight: 600;
+}
