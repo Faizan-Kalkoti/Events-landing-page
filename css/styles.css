@@ -33,8 +33,9 @@ body{
 }
 
 .tc1{
-    padding: 1em;
+    padding-left: 0em;
     font-size: 1.2em;
+    padding-bottom: 0.5em;
 }
 
 .tc2{
@@ -98,18 +99,6 @@ body{
 }
 
 
-/* .bg01{
-    position: absolute;
-    width: 30%;
-    height: 30%;
-    background: linear-gradient(to top left, rgba(200,200,200,0.08), rgba(100,100,100,0.2));
-    z-index: 90;
-    clip-path: circle();
-    border-radius: 5px ;
-    transform: scale(1.2);
-    transform: translate(-9em, -8em);
-} */
-
 .sc2{
     margin-top: 0em;
     width: 100%;
@@ -120,26 +109,6 @@ flex-direction: row;
 align-items: center;
 text-align: center;
 font-size: 1.15em;
-}
-
-.auth{
-    padding: 7em;
-    text-align: left;
-    font-size: 1.3em;
-}
-
-.ath{
-    width: 21em;
-    padding: 2em;
-    background-color:  rgb(245, 245, 245);
-    border-radius: 1em;
-    box-shadow: -20px 20px 40px rgb(237, 231, 227);
-}
-
-.sc4{
-    padding: 7em;
-    padding-bottom: 2em;
-    text-align: center;
 }
 
 
@@ -243,6 +212,7 @@ font-size: 1.15em;
     color: rgba(245, 245, 245, 0.616);
     padding-top: 0.4em;
 }
+/* Footer content styling ended here */
 
 
 
@@ -278,4 +248,186 @@ font-size: 1.15em;
 .contact_btn:hover{
     background-color: aliceblue;
     font-weight: 600;
+}
+/* End of the contact page styling */
+
+
+
+
+
+
+
+
+/*  -----  Restyling Done from here  -----    */
+
+/* from top section */
+.top-phone-img{
+    width: 25vw;
+}
+
+.tc1head{
+    padding-left: 0.4em;
+    font-size: 1.4em;
+}
+
+.button-download
+{
+    text-align: left;
+}
+
+.dbutton{
+    text-decoration: none; 
+    border: 1px solid black;
+    padding:0.4em 1.5em;
+    border-radius: 0.1em 0.5em 0.5em 0.1em; 
+    color: black; 
+    background-color: rgb(234, 225, 213);
+    transition: 0.4s;
+}
+
+.dbutton:hover{
+    font-size: 1.1em;
+    background-color: rgb(250, 244, 236);
+    transition: 0.5s;
+}
+/* End of first section */
+
+
+
+/* 3rd section */
+.hand-phone{
+    width: 22vw;
+}
+
+.hand-phone-div{
+    padding: 5em 19em;
+}
+
+.auth{
+    padding: 7em;
+    text-align: left;
+    font-size: 1.3em;
+}
+
+.ath{
+    width: 100%;
+    padding: 2em;
+    background-color:  rgb(245, 245, 245);
+    border-radius: 1em;
+    box-shadow: -20px 20px 40px rgb(237, 231, 227);
+}
+/* End of 3rd Section */
+
+
+/* Start of the 4th Section */
+.sc4{
+    padding:  4em 6em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+.authy{
+    padding:5em 6em;
+    font-size: 1.2em;
+}
+
+.straigt-phones-img{
+    height: 30em;
+}
+
+/* End of the 4th Seciton */
+
+
+
+
+/*   ---   This is to make it responsive   ---   */
+@media only screen and (max-width: 700px) and (min-width: 200px) 
+{
+
+/* Top section styling  */
+    .top-phone-img{
+        width: 50vw;
+    }
+
+    .topcontent{
+        padding: 1em;
+    }
+
+    .tc1{
+        padding-left: 0.5em;
+        padding-bottom: 0.5em;
+    }
+    .tc1head{
+        padding-left: 0.9em;
+    }
+
+    .button-download
+    {
+        text-align: left;
+        padding-left: 0.6em;
+        padding-bottom: 1.5em;
+        padding-top: 0.2em
+    }
+/* First section end */
+
+   /* - */
+   /* - */
+   /* - */
+   /* - */
+   
+/* third section Start */
+    .hand-phone{
+        width: 60vw;
+    }
+
+    .hand-phone-div{
+        padding: 0em 5em;
+    }
+
+    .auth{
+        padding: 1em;
+        text-align: left;
+        font-size: 1.3em;
+    }
+
+    .ath{
+        width: 80vw;
+        padding: 1em;
+        background-color:  rgb(245, 245, 245);
+        border-radius: 1em;
+        box-shadow: -20px 20px 40px rgb(237, 231, 227);
+    }
+/* End of the 3rd section */
+
+   /* - */
+   /* - */
+   /* - */
+   /* - */
+
+/* Start of the 4th section */
+.sc4{
+    padding: 1em;
+    padding-bottom: 3em;
+    text-align: center;
+}
+
+.straigt-phones-img{
+    height: 35vh;
+}
+
+.authy{
+    padding:5em 1em;
+    font-size: 1.2em;
+}
+/* End of the 4th section */
+
+   /* - */
+   /* - */
+   /* - */
+   /* - */
+   
+/* Start of the 5th section */
+
+
+/* End of the 5th section */
 }
