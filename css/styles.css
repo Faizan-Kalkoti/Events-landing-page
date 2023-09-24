@@ -112,18 +112,7 @@ font-size: 1.15em;
 }
 
 
-
-.sc5{
- background-color: antiquewhite;
- padding: 3em 15%;
- margin-bottom: 0em;
- display:flexbox;
- justify-content: center;
- align-items: center;
- text-align: center;
- height: fit-content;
-}
-
+/* Section 5 styling (old styling) */
 .crow{
     background-color: rgba(245, 245, 245, 0.495);
     padding: 1em;
@@ -147,10 +136,9 @@ font-size: 1.15em;
 .cc{
     width: 80%;
     height: fit-content;
-    /* background-color: aqua; */
     text-align: left;
     padding: 1em;
-    font-size: 1.3em;
+    font-size: 1.2em;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -165,16 +153,15 @@ font-size: 1.15em;
 }
 
 .imgtest{
-    
     transform: scale(0.5);
 }
+/* End of section 5 styling old one--! */
 
 
 
 
 
 /* Footer contents  */
-
 .scft{
     background-color: rgb(38, 38, 38);
     padding: 2em; 
@@ -334,8 +321,56 @@ font-size: 1.15em;
 .straigt-phones-img{
     height: 30em;
 }
-
 /* End of the 4th Seciton */
+
+
+
+/* Start of the 5th section */
+.sc5{
+    background-color: antiquewhite;
+    padding:3em 14em;
+    margin-bottom: 0em;
+    /* display:flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: fit-content;
+   }
+
+/* outer carousel */
+.outer-carsl{
+    background-color: whitesmoke;
+    border-radius: 1em;
+    box-shadow: 0em 0em 2em rgb(198, 188, 170);
+   }
+
+/* carousel inner row styling */
+.carbt{
+    padding: 1em 2em;
+   }
+
+/* carousel image styling */
+.car-img{
+    width: 13em;
+}
+
+/* carousel content */
+.car-content{
+    /* background-color: rgba(255, 255, 255, 0.605);
+     */
+     background-color: whitesmoke;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    font-size: 1.2em;
+}
+
+.quote-style{
+    width: 2em;
+  }
+   
+
+/* End of the 5th section */
+
 
 
 
@@ -343,7 +378,6 @@ font-size: 1.15em;
 /*   ---   This is to make it responsive   ---   */
 @media only screen and (max-width: 700px) and (min-width: 200px) 
 {
-
 /* Top section styling  */
     .top-phone-img{
         width: 50vw;
@@ -361,20 +395,17 @@ font-size: 1.15em;
         padding-left: 0.9em;
     }
 
-    .button-download
-    {
+    .button-download{
         text-align: left;
         padding-left: 0.6em;
         padding-bottom: 1.5em;
         padding-top: 0.2em
     }
 /* First section end */
-
    /* - */
    /* - */
    /* - */
-   /* - */
-   
+   /* - */ 
 /* third section Start */
     .hand-phone{
         width: 60vw;
@@ -398,12 +429,10 @@ font-size: 1.15em;
         box-shadow: -20px 20px 40px rgb(237, 231, 227);
     }
 /* End of the 3rd section */
-
    /* - */
    /* - */
    /* - */
    /* - */
-
 /* Start of the 4th section */
 .sc4{
     padding: 1em;
@@ -420,13 +449,29 @@ font-size: 1.15em;
     font-size: 1.2em;
 }
 /* End of the 4th section */
-
    /* - */
    /* - */
    /* - */
    /* - */
-   
 /* Start of the 5th section */
+  .sc5{
+    padding:2em;
+  }
+  .carbt{
+    padding: 1em 1em;
+   }
+
+  .car-img{
+    width: 30vw;
+  }
+
+  .quote-style{
+    width: 1em;
+  }
+
+  .car-content{
+    font-size: 1em;
+  }
 
 
 /* End of the 5th section */

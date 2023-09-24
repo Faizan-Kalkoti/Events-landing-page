@@ -6,8 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <title>My College App</title>
   <style>
     
@@ -184,108 +186,151 @@
 <!-- End of the 4th section -->
 
 
-<div class="sc5">
-    
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner" style="text-align: center;">
-        <h1 style="padding-bottom: 0.5em;">Testimonials</h1>
-        <div class="carousel-item px-5 py-5 active">
-          <div class="row crow">
-            <div class="col-lg-4 imgtest">
-              <img src="photos/testimonials/testimonials-5.jpg" 
-              class="d-block" style="border-radius: 20em;" alt="photo1">
-            </div>
-            <div class="col-lg-1 qq">
-              <img src="photos/testimonials/quote.png" alt="" 
-              style="width: 4em ;">
-            </div>
-            <div class="col-lg-7 tcc">
 
-              <div class="cc">
-                <div class="ttcontent">
-                  As an event organizer, this app has been a lifesaver. 
+
+
+<!-- Start of the older 5th section 'Carousel' -->
+<div class="sc5">
+  <h2 style="text-align: center; padding-bottom:1em;">Testimonials</h2>
+  <div id="carouselExampleSlidesOnly" class="carousel slide outer-carsl" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <!-- First carousel item -->
+      <div class="carousel-item active carbt">
+        <div class="row" style="margin: 0px;">
+          <div class="col-lg-4" style="display: flex; align-items: center; justify-content: center;">
+            <div><img src="photos/testimonials/testimonials-5.jpg" class="car-img"
+              style="border-radius: 20em;" alt="photo1"></div>
+          </div>
+          <div class="col-lg-8" style="padding:0.5em;">
+            <div class="car-content">
+
+            <!-- Content start -->
+              <div class="row" style="margin: 0px;">
+                <div class="col-lg-1" style="text-align: left;">
+                  <img src="photos/testimonials/quote.png" alt="quote" 
+                   class="quote-style">
+                </div>
+              </div>
+
+              As an event organizer, this app has been a lifesaver. 
                   The intuitive interface makes it easy to create and manage 
                   events, and the authentication feature ensures that only authorizedx   
-                  users can access and make changes to my event listings. 
-                </div>
-                <div class="ttdes">
-                  <h6> John, Event Organizer</h6>
+                  users can access and make changes to my event listings.
+
+              <div class="row" style="margin: 0px;">
+                <div class="col-lg-11"></div>
+                <div class="col-lg-1" style="text-align: right;">
+                  <img src="photos/testimonials/quote_dn.png" alt="quote" 
+                   class="quote-style">
                 </div>
               </div>
+
+              <div class="row" style="margin: 0px;">
+                <div class="col-lg-3"></div><div class="col-lg-3"></div>
+                <div class="col-lg-6" style="font-weight: 600">
+                    - John, Event Organizer
+                </div> </div>
+              <!-- Content End -->
 
             </div>
-          </div>
-        </div>
-
-        <div class="carousel-item px-5 py-5">
-          <div class="row crow">
-            <div class="col-lg-4 imgtest">
-              <img src="photos/testimonials/testimonials-4.jpg" 
-              class="d-block " style="border-radius: 20em;" alt="photo2">
-            </div>
-            <div class="col-lg-1 qq">
-              <img src="photos/testimonials/quote.png" alt="" 
-              style="width: 4em ;">
-            </div>
-            <div class="col-lg-7 tcc">
-
-              <div class="cc">
-                <div class="ttcontent">
-                  I've tried a lot of different apps for managing college
-                  events and news, but this one is by far the best.  
-                  I love the clean, modern design of the app, 
-                  and I highly recommend it to anyone looking 
-                  for an easy and intuitive way to stay informed.
-                </div>
-                <div class="ttdes">
-                  <h6> Mike, College Student</h6>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <div class="carousel-item px-5 py-5">
-          <div class="row crow">
-              <div class="col-lg-4 imgtest">
-                <img src="photos/testimonials/testimonials-3.jpg" 
-                class="d-block" style="border-radius: 20em;" alt="photo3">
-              </div>
-              <div class="col-lg-1 qq">
-                <img src="photos/testimonials/quote.png" alt="" 
-              style="width: 4em ;">
-              </div>
-              <div class="col-lg-7 tcc">
-  
-                <div class="cc">
-                  <div class="ttcontent">
-                    I can't imagine managing my college life without this app!
-                     It's made it so easy to stay on top of events and news, 
-                     and the real-time updates are a game-changer. 
-                     I highly recommend this app to any 
-                    college student looking to stay organized and in the know.
-                  </div>
-                  <div class="ttdes">
-                    <h6> Sarah, College Student</h6>
-                  </div>
-                </div>
-                
-              </div>
           </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button " data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+
+      <!-- Second carousel item -->
+      <div class="carousel-item carbt">
+
+        <div class="row" style="margin: 0px;">
+          <div class="col-lg-4" style="display: flex; align-items: center; justify-content: center;">
+           <div> <img src="photos/testimonials/testimonials-4.jpg" 
+              class="car-img" style="border-radius: 20em;" alt="photo2"> </div>
+          </div>
+          <div class="col-lg-8" style="padding:0.5em;">
+            <div class="car-content">
+              
+               <!-- Content start -->
+               <div class="row" style="margin: 0px;">
+                <div class="col-lg-1" style="text-align: left;">
+                  <img src="photos/testimonials/quote.png" alt="quote" 
+                   class="quote-style">
+                </div>
+              </div>
+
+              I've tried a lot of different apps for managing college
+              events and news, but this one is by far the best.  
+              I love the modern design of the app, 
+              and I highly recommend it to anyone looking 
+              for an easy and intuitive way to stay informed of the college events.
+
+              <div class="row" style="margin: 0px;">
+                <div class="col-lg-11"></div>
+                <div class="col-lg-1" style="text-align: right;">
+                  <img src="photos/testimonials/quote_dn.png" alt="quote" 
+                   class="quote-style">
+                </div>
+              </div>
+
+              <div class="row" style="margin: 0px;">
+                <div class="col-lg-3"></div><div class="col-lg-3"></div>
+                <div class="col-lg-6" style="font-weight: 600">
+                    - Mike, College Student
+                </div> </div>
+              <!-- Content End -->
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Third carousel item -->
+      <div class="carousel-item carbt">
+
+        <div class="row" style="margin: 0px;">
+          <div class="col-lg-4" style="display: flex; align-items: center; justify-content: center;">
+            <div><img src="photos/testimonials/testimonials-3.jpg" 
+                class="car-img" style="border-radius: 20em;" alt="photo3"></div>
+          </div>
+          <div class="col-lg-8" style="padding:0.5em;">
+            <div class="car-content">
+              
+               <!-- Content start -->
+               <div class="row" style="margin: 0px;">
+                <div class="col-lg-1" style="text-align: left;">
+                  <img src="photos/testimonials/quote.png" alt="quote" 
+                   class="quote-style">
+                </div>
+              </div>
+
+              I can't imagine managing my college life without this app!
+              It's made it so easy to stay on top of events and news, 
+              and the real-time updates are a game-changer. 
+              I highly recommend this app to any 
+             college student looking to stay organized and in the know.
+
+              <div class="row" style="margin: 0px;">
+                <div class="col-lg-11"></div>
+                <div class="col-lg-1" style="text-align: right;">
+                  <img src="photos/testimonials/quote_dn.png" alt="quote" 
+                   class="quote-style">
+                </div>
+              </div>
+
+              <div class="row" style="margin: 0px;">
+              <div class="col-lg-3"></div><div class="col-lg-3"></div>
+              <div class="col-lg-6" style="font-weight: 600">
+                  - Sarah, College Student
+              </div> </div>
+              <!-- Content End -->
+
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
     </div>
-
-
+  </div>
 </div>
 
 
@@ -328,9 +373,10 @@
 </div>
 
   <script src="js/"></script>
+  <script src="js/bootstrap.min.js"></script> <!--
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script> -->
 </body>
 
 </html>
